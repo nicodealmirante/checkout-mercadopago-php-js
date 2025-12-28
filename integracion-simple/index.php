@@ -18,7 +18,7 @@ use MercadoPago\Client\Preference\PreferenceClient;
 use MercadoPago\MercadoPagoConfig;
 
 // Agrega credenciales ACCESS_TOKEN
-MercadoPagoConfig::setAccessToken("PROD_ACCESS_TOKEN");
+MercadoPagoConfig::setAccessToken("TEST-2564901385189229-122814-f10d57cf3dfd066e0c348432396b742f-1541188521");
 
 // Crea una instancia del cliente de preferencias de MercadoPago
 $client = new PreferenceClient();
@@ -101,5 +101,6 @@ $preference = $client->create([
         });
     </script>
 </body>
+
 
 </html>
