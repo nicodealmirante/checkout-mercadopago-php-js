@@ -82,7 +82,7 @@ $preference = $client->create([
 
     <script>
         // Inicializa el objeto MercadoPago con el PUBLIC_KEY
-        const mp = new MercadoPago('YOUR_PUBLIC_KEY', {
+        const mp = new MercadoPago('TEST-47cbe2e9-b5ae-41b1-8ee2-d56d40d777da', {
             locale: 'es-MX'
         });
 
@@ -104,3 +104,4 @@ $preference = $client->create([
 
 
 </html>
+
